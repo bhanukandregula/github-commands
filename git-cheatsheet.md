@@ -37,7 +37,7 @@
 </br>
 
 #### 07. Add the specific file to staging area
-> git add <filename>
+> git add file-name
 
 </br>
 
@@ -187,7 +187,7 @@ ex: git mv test.txt levelone/test.txt
 #### 35. Merge the branches
 > git checkout master
 > git branch
-> git merge <branch-name>
+> git merge branch-name
 > git log
 
 </br>
@@ -199,7 +199,7 @@ ex: git mv test.txt levelone/test.txt
 </br>
 
 #### 37. Get all the commits of a specific branch.
-> git merge --squash <target-branch-name>
+> git merge --squash target-branch-name
 
 </br>
 
@@ -209,17 +209,17 @@ ex: git mv test.txt levelone/test.txt
 </br>
 
 #### 39. Delete the specific branch.
-> git branch -d <branch-name>
+> git branch -d branch-name
 
 </br>
 
 #### 40. Adding a git remote.
-> git remote add origin https:####github.com/<user-name>/<repo-name>.git
+> git remote add origin https:github.com/user-name/repo-name.git
 
 </br>
 
 #### 41. Edit the assigned remote uri.
-> git remote set-url origin https:github.com/<user-name>/<repo-name>.git
+> git remote set-url origin https:github.com/user-name/repo-name.git
 
 </br>
 
@@ -271,7 +271,7 @@ ex: git mv test.txt levelone/test.txt
 </br>
 
 #### 51. Push he repo to specific repo
-> git push origin <branch-name>
+> git push origin branch-name
 
 </br>
 
