@@ -219,7 +219,7 @@ ex: git mv test.txt levelone/test.txt
 </br>
 
 #### 41. Edit the assigned remote uri.
-> git remote set-url origin https:####github.com/<user-name>/<repo-name>.git
+> git remote set-url origin https:github.com/<user-name>/<repo-name>.git
 
 </br>
 
